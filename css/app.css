@@ -1,0 +1,399 @@
+/*.top-bar, .top-bar ul {
+  background-color: #848484;
+} */
+
+body {
+color: #fefefe;
+background:  #e4e4e4;
+}
+
+.top-bar-left a {
+color: #e4e4e4;
+}
+
+.footer-links a {
+color: #e4e4e4;
+}
+
+a:hover { 
+	color: #C3C5CC;
+  	 }
+  	 
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+   border-color: #3c3c3c transparent transparent;
+  }
+  
+ #example-menu > div > div.top-bar-right > a {
+    margin:15px 15px;
+  }
+  
+ #pada {
+ 	 background-color: #848484;
+ }
+ 
+ #example-menu > div {
+ 	 background-color: #848484;
+ }
+ 
+ .sticky-container {
+ 	 background-color: #848484;
+ } 
+ 
+.callout1 {
+  margin: 0 0 1rem 0;
+  padding: 6rem;
+  border: 2px solid rgba(10, 50, 10, 0.25);
+  border-radius: 10;
+  position: relative;
+  color: #7A7B7F;
+  background-color:  #ffffff; 
+  text-align: center;
+  }
+  
+ 
+.callout1:hover {background-color: #F5F5F5;
+}
+
+.callout2 {
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 2px solid rgba(10, 20, 10, 0.25);
+  border-radius: 10;
+  position: relative;
+  color: #7A7B7F;
+  background-color:  #ffffff; 
+  text-align: center;
+  }
+ 
+.callout2:hover {background-color: #F5F5F5;
+}
+
+
+.tekst  {
+color: #545454;
+}
+
+.row2 {padding: 2rem 4rem;
+}
+
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem 4rem; }
+  .footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+  .footer .footer-links a {
+    font-size: 0.875rem; }
+    .footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
+  @media only screen and (min-width: 40.063em) {
+    .footer p {
+      text-align: left; }
+      }
+
+
+.tabs-title {
+  display: inline-block;
+  float: none;
+  background-color: #7A7B7F; 
+  }
+
+.tabs-title > a {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.25rem;
+    color: #7A7B7F; 
+    background-color: #FFFFFF;
+}
+    
+ .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
+  background: #e6e6e6;
+}
+
+i {
+  font-size: 30px;
+}
+    
+#visina {
+      min-height: 700px;
+}
+    
+    
+.upis1:hover {background-color: #E9F2F2;
+}
+
+.korisnik1:hover {background-color: #E9F2F2;
+}
+ 
+ .korisnik1, .upis1 {
+	padding: 5px;
+}
+
+.korisnik1, .upis1 div div{
+	text-align: center;
+}
+
+.korisnik1, .upis1  h1{
+	font-size: 0.7em;
+	width: 100%;
+	text-align: center;
+}
+
+.korisnik1, .upis1 div div p{
+	font-size: 0.6em;
+}   
+
+.siroko{
+	width: 100%;
+}
+
+.trazilica, .postfix {
+    margin:10px 15px;
+  }
+  
+  
+.top-bar-left {
+    margin:15px 15px;
+  }
+  
+
+  
+  
+
+
+a.hollow.button {
+	text-align: center;
+	padding: 50px;
+}
+
+.zaglavlje {
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+.log-in-form {
+  border: 1px solid #cacaca;
+  border-radius: 3px;
+ }
+ 
+ .row .column.row.row, .row .row.row.columns {
+    padding: 40px;
+  }
+
+
+/*.title-bar {
+  width: 100%;
+  background-color: #848484;
+} */
+
+.napredno { 
+	color: #7A7B7F;  
+}
+
+.sticky {
+  width: 100%;
+  background-color: #848484;
+}
+
+.sticky-container {
+	background-color: #7A7B7F; 
+}
+
+
+table {
+    font-size: small;
+}
+
+
+
+/* nadzorna */
+.inner-wrap {
+  width: auto; }
+
+.move-right .inner-wrap {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  margin-left: 114px; }
+
+.left-off-canvas-menu {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  position: fixed;
+  width: 0;
+  height: 100%; }
+
+.move-right .left-off-canvas-menu {
+  width: 114px; }
+
+.move-right .exit-off-canvas {
+  display: none; }
+
+.left-off-canvas-toggle {
+  display: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #333;
+  transition: all .25s ease-in-out; }
+  .left-off-canvas-toggle:focus {
+    color: #333; }
+  .left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; }
+
+.ad-block {
+  margin-bottom: 2rem; }
+  
+/*nad*/
+.inner-wrap {
+  width: auto; }
+
+.move-right .inner-wrap {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  margin-left: 114px; }
+
+.left-off-canvas-menu {
+  -ms-transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  position: fixed;
+  width: 0;
+  height: 100%; }
+
+.move-right .left-off-canvas-menu {
+  width: 114px; }
+
+.move-right .exit-off-canvas {
+  display: none; }
+
+.left-off-canvas-toggle {
+  display: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #333;
+  transition: all .25s ease-in-out; }
+  .left-off-canvas-toggle:focus {
+    color: #333; }
+  .left-off-canvas-toggle:hover {
+    color: #8c8c8c;
+    transition: all .25s ease-in-out; }
+
+.ad-block {
+  margin-bottom: 2rem; }
+  
+
+.button.alert.siroko {background-color:  #8c8c8c;}
+
+
+.alert-box {
+  padding: 1.3rem;
+  border-width: 0 0 0 0.35rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem; }
+
+.alert-box.alert {
+    border-left-color: #f22613;
+    background-color: #f77d71; }
+    .alert-box.alert strong {
+      color: #f22613; }
+
+/* Styles for search results */
+
+.results {
+  margin-top: 50px;
+}
+.results .search-results {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+
+.naslovp {
+	color: #2199e8 ;
+}
+
+.preko:hover {background-color: #F3F4F7;
+}
+
+
+#pad {
+	border: 0px;
+}
+
+/*login*/
+#log {
+      min-height: 700px;
+      margin-top: 50px;
+}
+
+
+/*tekst više manje*/
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}
+
+
+#log {
+	padding: 0;
+	margin:10px 5px;
+}
+
+
+#del {background-color:  #8c8c8c;}
+
+#del:hover {
+color: #C3C5CC;
+}
+
+
+
+#izborniknp {
+  margin: 0 0 0 0;
+  padding: 1rem;
+  border: 1px solid rgba(10, 20, 10, 0.25);
+  border-radius: 10;
+  position: relative;
+  color: #7A7B7F;
+  background-color:  #ffffff; 
+  text-align: center;
+  
+}
+
+#izborniknp p {
+text-align: center;
+	font-size: normal;
+	margin: 0 0 0 0;
+}
+
+#izborniknp:hover {background-color: #F5F5F5;
+}

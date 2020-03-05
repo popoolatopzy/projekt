@@ -63,4 +63,5 @@ try{
 			break;
 	}
 	header("location: greska.php?g=" . $g);
+	exit();
 }
